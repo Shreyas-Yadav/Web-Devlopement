@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.google.com/search">
+        <div>
+            <label for="q">Google Search</label>
+            <input type="text" id="q" name="q">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <!-- Task 9  -->
+
+    <form action="/server">
+        <caption>
+            <h3>Registration Form</h3>
+        </caption>
+        <div>
+            <input type="text" name="firstname" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Please select gender</label>
+            <select name="gender" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">Do you agree to all terms of service ?</label>
+            <input id="terms" name="terms" type="checkbox" value="true">
+            <label for="terms">Yes , I Agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>
