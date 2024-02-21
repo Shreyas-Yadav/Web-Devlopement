@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+a {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea {
+    color: #000;
+}
+
+p {
+    line-height: 30px;
+    color: red;
+}
+
+span {
+    text-decoration: black underline;
+}

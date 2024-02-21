@@ -1,0 +1,38 @@
+/* Practice question-1 */
+
+h2 {
+    color: orange;
+    font-family: sans-serif;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    color: white;
+    background-color: black;
+    /* line-height: 1.5; */
+
+}
+
+/* Practice question-1 End*/
+
+
+/* pactice Que-2 */
+
+h1 {
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+
+
+/* pactice Que-2 end */
