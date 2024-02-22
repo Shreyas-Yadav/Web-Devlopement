@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h3 {
+    color: brown;
+}
+
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+#signup {
+    background-color: brown;
+    color: white;
+}
+
+/* Desendent Selector  */
+p a {
+    color: purple;
+}
+
+
+div[id="myId"] p {
+    color: green;
+}
+
+p {
+    background-color: green;
+}
+
+.para {
+    background-color: blue;
+}
+
+div p {
+    background-color: black;
+}
+
+div .greetDiv .greet {
+    color: green;
+}
+
+.greetDiv p .greet {
+    color: blue;
+}
+
+.greetDiv .greet {
+    color: red;
+}
