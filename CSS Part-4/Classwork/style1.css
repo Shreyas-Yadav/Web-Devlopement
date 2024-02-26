@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin: 25px auto;
+    text-align: center;
+}
+
+div:nth-of-type(2n) {
+    background-color: pink;
+}
+
+div:nth-of-type(3n) {
+    background-color: lightcoral;
+}
+
+#one:hover {
+    transform: rotate(45deg);
+    transition-duration: 1s;
+}
+
+#two:hover {
+    transform: translate(200px, 100px);
+    transition-duration: 2.5s;
+}
+
+
+#three:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+}
+
+
+#four:hover {
+    transform: skew(-10deg);
+    transition-duration: 1s;
+}
+
+#five:hover {
+    transform: rotate(180deg) translateX(100px);
+    /* transition-delay: 1s; */
+    transition-duration: 1.5s;
+}
+
+#box {
+    background-color: black;
+    color: white;
+}
+
+#box:hover {
+    /* background-color: black; */
+    box-shadow: 5px 5px 15px darkred;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>CSS Part-4</title>
+</head>
+
+<body>
+    <section>
+        <h1>Static Postion</h1>
+        <div class="org">Original</div>
+        <div class="position" id="static">Static</div>
+        <p>No effect of <b>"Top","Left","Right","Bottom"</b> attributes</p>
+    </section>
+
+    <section>
+        <h1>Relative Postion</h1>
+        <div class="org">Original</div>
+        <div class="position" id="relative">Relative</div>
+        <p>
+            It is relative to original postion of itself.
+            <b>
+                top: 20px;
+                left: 100px;
+            </b>
+        </p>
+    </section>
+
+    <section>
+        <h1>Absolute Position</h1>
+        <div class="org">Original</div>
+        <div class="position" id="absolute">Absolute</div>
+        <p>It is relative to closest parent element which is other than static postion <br> or if it not exsit then it's
+            relative to
+            document.
+            <b>
+                top: 700px;
+                left: 250px;
+            </b>
+        </p>
+    </section>
+
+
+    <section>
+        <h1>Fixed Position</h1>
+        <div class="org">Original</div>
+        <div class="position" id="fixed">Fixed</div>
+        <p>It is fixed on screen
+            <b>
+                right: 200px;
+                top: 450px;
+            </b>
+        </p>
+    </section>
+
+
+</body>
+
+</html>
