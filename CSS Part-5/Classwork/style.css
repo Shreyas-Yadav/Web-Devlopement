@@ -1,0 +1,56 @@
+#outer {
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inner {
+    font-size: 1.1em;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 1ms ease-in-out 0s;
+    transition-duration: 0.2s;
+}
+
+#violet:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#indigo:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#blue:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#green:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#yellow:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#orange:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}
+
+#red:hover {
+    height: 400px;
+    /* transition-duration: 2s; */
+}

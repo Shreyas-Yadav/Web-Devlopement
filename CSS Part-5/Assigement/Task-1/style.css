@@ -1,0 +1,25 @@
+/* Task 1 */
+#outer {
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5%;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    /* flex: 2 2 75px; */
+}
+
+/* Task 1 End*/
