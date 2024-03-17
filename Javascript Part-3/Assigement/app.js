@@ -1,8 +1,7 @@
 // Task-1 
-let arr = [1, 2, 3, 4, 5, 6, 2, 3, 2, 2, 2, 2];
+let arr = [2, 2, 2, 2, 1, 2, 3, 4, 5, 6, 2, 3, 2, 2, 2, 2];
 let num = 2;
 console.log(arr);
-
 for (let i = 0; i < arr.length;) {
     if (arr[i] == num) {
         arr.splice(i, 1);
