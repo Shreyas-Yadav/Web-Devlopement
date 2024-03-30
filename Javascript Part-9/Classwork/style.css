@@ -1,0 +1,13 @@
+body {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box {
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+}
