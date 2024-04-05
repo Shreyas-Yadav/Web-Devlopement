@@ -1,0 +1,19 @@
+body {
+    color: blue;
+    background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+
+}
+
+h1 {
+    color: black;
+}
+
+img {
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
