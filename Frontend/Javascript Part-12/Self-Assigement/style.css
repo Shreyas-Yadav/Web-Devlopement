@@ -1,0 +1,15 @@
+.box {
+    text-align: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
