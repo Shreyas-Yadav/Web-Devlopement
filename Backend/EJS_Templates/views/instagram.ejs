@@ -1,0 +1,27 @@
+<%- include('includes/head.ejs') %>
+
+<body>
+  <h1>
+    <% if(data==undefined) { %>
+    User not found
+    <% }else{ %>
+    <%= data.name %> welcome back...!
+    <% } %>
+  </h1>
+
+  <button>Follow</button>
+  <button>Message</button>
+
+
+  <p>Followers: <b><%= data.followers %></b>&nbsp;&nbsp;&nbsp;&nbsp; Following: <b><%= data.following %></b>
+  </p>
+
+  <hr>
+
+  <% for (item of data.posts ) {%>
+
+  <img src="<%= item.image %>" alt="img">
+  <p>Likes: <b><%= item.likes %></b> &nbsp;&nbsp;&nbsp;&nbsp; Comments: <b><%= item.comments %></b></p>
+  <% } %>
+
+  <%- include('includes/footer.ejs') %>
