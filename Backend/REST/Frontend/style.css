@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 10vh;
+    background: green;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-item {
+    font-size: large;
+    /* border: 1px solid black; */
+    border-radius: 10%;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-item>a:hover {
+    color: yellow;
+}

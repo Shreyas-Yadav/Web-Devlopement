@@ -1,0 +1,38 @@
+h1 {
+    color: maroon;
+}
+
+
+
+.post {
+    background-color: blanchedalmond;
+}
+
+.details-btn {
+    background-color: greenyellow;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.add-btn {
+    margin-top: 20px;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    form {
+      height: 500px;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input {
+      width: 30%;
+    }
+
+    .btn {
+      width: 10%;
+    }
+  </style>
+  <title>Create New Post</title>
+</head>
+
+<body>
+  <form method="post" action="/posts">
+    <input class="input" type="text" name="username" placeholder="Enter username">
+    <textarea class="input" type="text" name="content" placeholder="Enter content..."></textarea>
+    <button class="btn">Submit post</button>
+  </form>
+</body>
+
+</html>
