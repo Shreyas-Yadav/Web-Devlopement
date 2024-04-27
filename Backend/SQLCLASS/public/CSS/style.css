@@ -1,0 +1,60 @@
+body {
+    background-color: lightgrey;
+
+}
+
+.fix-top button {
+    margin: 5px;
+}
+
+table,
+th,
+td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr:hover {
+
+    background-color: yellow;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+form {
+    display: inline;
+    cursor: pointer;
+}
+
+.fix-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1 px solid black;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    background: #66bfbf;
+}
