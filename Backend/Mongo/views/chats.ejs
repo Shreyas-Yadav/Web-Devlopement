@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>All chats</title>
+</head>
+
+<body>
+  <h1>Chats</h1>
+  <hr>
+  <button><a href="http://localhost:8080/chats/new">Create New Chat</a></button>
+  <hr>
+  <div class="box">
+    <% for(let i=0;i<chats.length;i++){ %>
+    <div class="chat">
+      <h3>From: <%= chats[i].from %></h3>
+      <div class="msg">
+        <p><b>Message:</b><%= chats[i].msg %> </p>
+      </div>
+      <h3>To: <%= chats[i].to %></h3>
+      <button><a href="http://localhost:8080/chats/edit/<%= chats[i].id %>">Edit</a></button>
+      <form style="display: inline-block;" method="post" action="http://localhost:8080/chats/delete/<%= chats[i].id %>?_method=DELETE">
+        <button>Delete</button>
+      </form>
+    </div>
+    <% } %>
+  </div>
+</body>
+
+</html>
